@@ -1,10 +1,10 @@
 # train and val datasets (image directory or *.txt file with image paths)
-train: /home/jongwook95.lee/vision/Slive/ScaledYOLOv4-yolov4-csp/our_data/train/images  
-val: /home/jongwook95.lee/vision/Slive/ScaledYOLOv4-yolov4-csp/our_data/images/valid 
-test: /home/jongwook95.lee/vision/Slive/ScaledYOLOv4-yolov4-csp/our_data/images/valid 
+train: /home/ISR-YOLOv4/our_data/train/images  
+val: /home/ISR-YOLOv4/our_data/images/valid 
+test: /home/ISR-YOLOv4/our_data/images/valid 
 
 # number of classes
-nc: 3
+nc: 2
 
 # class names
-names: ['head', 'helmet', 'person']
+names: ['head', 'helmet']
